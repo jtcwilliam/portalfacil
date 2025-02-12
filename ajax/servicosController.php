@@ -21,7 +21,7 @@ $dados = $objServicos->consultarDadosServicos($_POST['comboProcessos']);
 
             <div class="grid-x grid-padding-x">
                 <div class="large-12 cell">
-                    <label>O que é</label>
+                    <label class="tituloTabela">O que é</label>
                     <p>
                         <?= $dados[0]['oQueE'] ?>
 
@@ -29,7 +29,7 @@ $dados = $objServicos->consultarDadosServicos($_POST['comboProcessos']);
                 </div>
 
                 <div class="large-12 cell">
-                    <label>Quando é necessário?</label>
+                    <label class="tituloTabela">Quando é necessário?</label>
                     <p>
 
                         <?= $dados[0]['quandoNecessario'] ?>
@@ -40,7 +40,7 @@ $dados = $objServicos->consultarDadosServicos($_POST['comboProcessos']);
 
 
                 <div class="large-6 cell">
-                    <label>Forma de Atendimento</label>
+                    <label class="tituloTabela">Forma de Atendimento</label>
                     <p>
 
                         <?= $dados[0]['formaAtendimento'] ?>
@@ -49,7 +49,7 @@ $dados = $objServicos->consultarDadosServicos($_POST['comboProcessos']);
                 </div>
 
                 <div class="large-6 cell">
-                    <label>Prazo de Execução</label>
+                    <label class="tituloTabela">Prazo de Execução</label>
                     <p>
 
                         <?= $dados[0]['prazoExecucao'] ?>
@@ -58,7 +58,7 @@ $dados = $objServicos->consultarDadosServicos($_POST['comboProcessos']);
                 </div>
 
                 <div class="large-12 cell">
-                    <label>Legislação</label>
+                    <label class="tituloTabela">Legislação</label>
                     <table>
                         <thead>
                             <tr>
@@ -93,7 +93,7 @@ $dados = $objServicos->consultarDadosServicos($_POST['comboProcessos']);
                 </div>
 
                 <div class="large-12 cell" style="display: none;">
-                    <label>Documentos Necessários</label>
+                    <label class="tituloTabela">Documentos Necessários</label>
                     <table>
                         <thead>
                             <tr>
@@ -114,7 +114,7 @@ $dados = $objServicos->consultarDadosServicos($_POST['comboProcessos']);
                 </div>
 
                 <div class="large-12 cell">
-                    <label>Taxas Cobradas</label>
+                    <label class="tituloTabela">Taxas Cobradas</label>
                     <table>
                         <thead>
                             <tr>

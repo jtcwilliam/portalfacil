@@ -33,6 +33,13 @@ $dados = $objservico->trazerServicos();
     label {
       font-weight: 800;
       font-size: 1.1em;
+     
+    }
+
+    .tituloTabela {
+      font-weight: 800;
+      font-size: 1.1em;
+      background-color: #e0e0e0;
     }
   </style>
 
